@@ -22,6 +22,10 @@ css 全域變數
   --natural-gray-3:#C1C1C1;
 }
 
+font-title {
+  font-family: 'Mantou Sans', 'Noto Sans TC';
+}
+
 @import "../../node_modules/bootstrap/scss/functions";
 @import "./variable.scss";
 @import "../../node_modules/bootstrap/scss/mixins";
