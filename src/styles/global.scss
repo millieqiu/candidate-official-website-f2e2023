@@ -1,0 +1,29 @@
+/* -------
+css 全域變數 
+--------------- */
+:root {
+  --main-color: #4527A0;
+  --secondary-color: #26A69A;
+  --deco-color: #FFB300;
+
+  --background-color: #E3E3E3;
+
+  --natural-white: #FFF;
+  --natural-black: #000;
+
+  --natural-dark-1: #222222;
+  --natural-dark-2:#333333;
+  --natural-dark-5:#999999;
+
+  --natural-light-2:#B9B9B9;
+  --natural-light-5:#FAFAFA;
+
+  --natural-gray-4:#ACACAC;
+  --natural-gray-3:#C1C1C1;
+}
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./variable.scss";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
