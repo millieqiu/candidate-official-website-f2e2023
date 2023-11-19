@@ -20,10 +20,40 @@ css 全域變數
 
   --natural-gray-4:#ACACAC;
   --natural-gray-3:#C1C1C1;
+
+  --title-font: 'Mantou Sans';
 }
 
-font-title {
-  font-family: 'Mantou Sans', 'Noto Sans TC';
+.title {
+  font-family: var(--title-font);
+  line-height: 160%;
+}
+
+.title-lg {
+  font-size: 7.5rem;
+  line-height: 100%;
+}
+
+.title-normal {
+  font-size: 3.75rem;
+}
+
+.title-md {
+  font-size: 2.25rem;
+}
+
+.title-sm {
+  font-size: 1.25rem;
+}
+
+.text-vertical {
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
+}
+
+@font-face {
+  font-family: 'Mantou Sans';
+  src: url(../assets/fonts/MantouSans-Regular.ttf);
 }
 
 @import "../../node_modules/bootstrap/scss/functions";
